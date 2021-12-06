@@ -1,0 +1,52 @@
+@font-face {
+    font-family: Terror;
+    src: url(../fontes/Melted\ Monster.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(175, 174, 174);
+}
+#titulo-principal{
+    text-align: center;
+    font-family: "Terror",Arial, Helvetica, sans-serif;
+    margin-top: 1.5rem;
+    text-shadow: 1.7px 1.5px red;
+}
+#tweets{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 2rem;
+    margin: 2rem auto;
+}
+.tweet{
+    height: 200px;
+    width: 446px;;
+}
+.tweet:hover{
+    cursor: pointer;
+    transform: scale(1.3);
+}
+.tweet-container{
+    display: flex;
+    justify-content: center;
+}
+#texto{
+    text-align: center;
+    width: 466px;
+}
+#Qanon{
+    margin:7rem;
+    display: flex;
+    justify-content: center;
+}
+#imagem-insta{
+    height: 400px;
+    box-shadow: 0 0 60px 30px #fff, 0 0 100px 5px #ac9393;
+}
+#imagem-insta:hover{
+    transform: scale(1.5);
+}

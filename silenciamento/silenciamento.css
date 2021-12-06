@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Terror;
+    src: url(../fontes/Melted\ Monster.ttf);
+}
+*{
+    margin:0px;
+    padding: 0px;
+}
+:root{
+    --cor-Par:rgb(70, 70, 70);
+    --cor-Impar:rgb(58, 58, 58);
+}
+#body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#titulo{
+    height: 100%;
+    background-color: var(--cor-Par);
+    padding: 25px;
+    color: rgb(201, 30, 30);
+    text-align: center;
+    font-family: "Terror",Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.horizontal{
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+.par{
+    background-color: var(--cor-Par);
+}
+.impar{
+    background-color: var(--cor-Impar);
+}
+.imagens{
+    height: 200px;
+}
+.textos{
+    padding: 10px;
+    color: white;
+    width: 35%;
+    border: 3px white solid;
+    border-radius: 5px;
+}

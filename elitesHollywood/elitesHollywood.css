@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Terror;
+    src: url(../fontes/Melted\ Monster.ttf);
+}
+@font-face{
+    font-family:Terror2;
+    src:url(../fontes/Sectar.otf)
+}
+body{
+    background-color: rgb(221, 220, 220);
+    font-family: Arial, Helvetica, sans-serif;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+#introdução{
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.76) 2px 2px 5px 2px;
+    width: 60%;
+    margin:1.5rem auto;
+}
+#titulo-principal{
+    font-family: "Terror",Arial, Helvetica, sans-serif;
+    text-shadow: 1.5px 1.5px red;
+    text-align: center;
+}
+#conteudo-introdução{
+    margin-top: 1rem;
+    display:flex;
+    text-align: center;
+    align-items: center;
+}
+#imagem-introdução{
+    height: 15rem;
+}
+#texto-introdução{
+    font-size:1.2rem;
+    padding:10px;
+    font-family:Arial, Helvetica, sans-serif
+}
+#barra{
+    width: 95%;
+    margin: 3rem auto;
+    height: 5px;
+    background-color: black;
+}
+#oQue{
+    padding-top:2rem;
+}
+h2{
+    text-align: center;
+    font-family: "Terror2",Arial, Helvetica, sans-serif;
+    font-size:1.6rem;
+}
+#adenocromo div{
+    padding-bottom: 2rem;
+}
+#adenocromo div p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.2rem;
+    text-align: center;
+    width: 80%;
+    margin: 0.5rem auto 0rem auto;
+}
+#teste-grid{
+    margin-top:1rem;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.teste-titulo{
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#video{
+    display: flex;
+    justify-content: center;
+}
